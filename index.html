@@ -53,10 +53,10 @@
           <p class="reasons-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
         <div class="index-columns">
-        <section class="advantages">
+         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="advantages-list">
-            <li class="advantages-item">
+            <li class="advantages-item-blue">
               <h3 class="advantages-title">Настоящий городок</h3>
               <p class="advantages-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
             </li>
@@ -89,13 +89,13 @@
             <img class="advantages-photo" src="images/bridge-sedona.jpg" width="800" height="384" alt="фото моста дьявола">
           </picture>
           <ul class="advantages-list">
-            <li class="advantages-item">
+            <li class="advantages-item-blue">
               <h3 class="advantages-title">Там есть мост дьявола</h3>
               <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </li>
             </ul>
             </section>
-            </div>
+
 
             <section class="cards">
             <ul class="advantages-cards">
@@ -114,7 +114,9 @@
                   <path d="M58.4317 47.2H55.4197V51.1H58.4317V47.2Z" fill="#83B3D3"/>
                   </svg>
                 <h3>Жилье</h3>
+                <div class="card-description">
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </div>
               </li>
               <li class="advantages-card-burger">
                 <svg width="75" height="70" viewBox="0 0 75 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,17 +128,22 @@
                   <path d="M45.3123 12.2C46.3643 12.2 47.2171 11.3046 47.2171 10.2C47.2171 9.09543 46.3643 8.2 45.3123 8.2C44.2604 8.2 43.4076 9.09543 43.4076 10.2C43.4076 11.3046 44.2604 12.2 45.3123 12.2Z" fill="#83B3D3"/>
                   </svg>
                 <h3>Еда</h3>
+                <div class="card-description">
                 <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                </div>
               </li>
               <li class="advantages-card-gift">
                 <svg width="65" height="76" viewBox="0 0 65 76" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M61.6 22.4625H61.5H36.8C50.6 15.5576 51.7 11.1546 51.2 8.75288C50 4.75007 45.5 1.74797 41.2 3.34909C35.6 5.45056 34.1 13.7564 32.6 19.7606C30.6 13.6563 28.8 5.95091 24.4 2.04818C23.1 0.947407 21.3 -0.253434 18.6 0.0467764C14.6 0.447057 8.8 5.45056 11.1 11.0545C13.4 16.4583 20.8 19.8607 25.7 22.5626H3.7H3.4C1.8 22.5626 0.5 23.8635 0.5 25.4646V36.7725C0.5 38.3736 1.8 39.6745 3.4 39.6745H3.7V72.9979V75.3996V76H61.5V75.4996V72.9979V39.5745H61.6C63.2 39.5745 64.5 38.2736 64.5 36.6724V25.3645C64.5 23.7634 63.2 22.4625 61.6 22.4625ZM42.9 5.85084C45 5.55063 47.9 7.15176 48.2 9.05309C48.6 11.8551 44.8 14.3568 43.1 15.4576C40.6 17.1588 38.2 18.0594 35.8 19.5604C36.7 15.8579 38.3 6.55133 42.9 5.85084ZM20 15.8579C17.8 14.3568 13.5 11.4548 13.6 8.05239C13.7 4.44986 19.3 1.44776 22.4 4.14965C26.3 7.55203 28.1 15.2574 29.5 20.7613C26.3 19.2602 23.2 17.9593 20 15.8579ZM26 72.9979H6.6V39.5745H26V72.9979ZM26 36.4723H3.5V25.4646H26V36.4723ZM36.2 36.4723V39.4744V72.9979H29V39.5745V36.5724V25.5647H36.2V36.4723ZM58.5 72.9979H39.1V39.5745H58.5V72.9979ZM61.4 36.4723H39.1V25.4646H61.4V36.4723Z" fill="#83B3D3"/>
                   </svg>
                 <h3>Сувениры</h3>
+                <div class="card-description">
                 <p>Не только китайского, но и настоящего местного производства!</p>
+                </div>
               </li>
             </ul>
           </section>
+        </div>
           <div class="search">
             <h3 class="search-title">Заинтересовались?</h3>
             <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -144,9 +151,9 @@
           </div>
           <div class="newslatter">
             <h3 class="newslatter-title">Подпишитесь на рассылку</h3>
-            <span class="newslatter-description">
+            <div class="newslatter-description">
             <p>Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-            </span>
+            </div>
             <form class="newslatter-form" action="https://echo.htmlacademy.ru/" method="post">
               <input class="field" placeholder="Ваш e-mail" type="email" name="newslatter-email" id="newslatter-email" required>
               <button class="button-newslatter-button" type="submit">Подписаться</button>
